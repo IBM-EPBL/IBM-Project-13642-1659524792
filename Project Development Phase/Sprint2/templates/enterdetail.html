@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="enterdetail">
+    <div class="enterdetailhead">Enter the Biometrics Details :</div>
+    <p class="enterdetail_description">You can add your biometrics details to register your health condition about your body. To access the resources of the nutrition assistant application, you can add your biometrics details first.</p>
+    <div class="row enterdetailrow">
+        <div class="col-sm-6 enterdetailcard">
+            <h6 class="enterdetailtopic">Gender</h6>
+            <input type="text" id="enterdetailform"><br>
+        </div>
+        <div class="col-sm-6 enterdetailcard">
+            <h6 class="enterdetailtopic">Birthday</h6>
+            <input type="text" id="enterdetailform"><br>
+        </div>
+    </div>
+    <div class="row enterdetailrow">
+        <div class="col-sm-12 enterdetailcard">
+            <h6 class="enterdetailtopic">How Active Are You?</h6>
+            <input type="text" id="enterdetailform"><br>
+        </div>
+    </div>
+    <div class="row enterdetailrow">
+        <div class="col-sm-6 enterdetailcard">
+            <h6 class="enterdetailtopic">Height</h6>
+            <input type="text" id="enterdetailform"><br>
+        </div>
+        <div class="col-sm-6 enterdetailcard">
+            <h6 class="enterdetailtopic">Weight</h6>
+            <input type="text" id="enterdetailform"><br>
+        </div>
+    </div>
+    <div class="row enterdetailrow">
+        <div class="col-sm-6 enterdetailcard">
+            <h6 class="enterdetailtopic">Goal Weight</h6>
+            <input type="text" id="enterdetailform"><br>
+        </div>
+        <div class="col-sm-6 enterdetailcard">
+            <a class="registerdetail_link" href="/detailconfirm">Register</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

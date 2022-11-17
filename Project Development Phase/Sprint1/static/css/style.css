@@ -1,0 +1,27 @@
+.content {
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+.content_box {
+    width: 300px;
+    margin: auto;
+
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+.head {
+    color: rgb(240, 226, 25);
+}
+.modal_button {
+    margin-left: 125px;
+}
+.modal-header {
+    background-color: rgb(27, 196, 21);
+}

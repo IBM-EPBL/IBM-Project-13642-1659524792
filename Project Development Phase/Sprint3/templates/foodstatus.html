@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="foodstatuscontent">
+    <h4 class="foodstatushead">Nutrients of your Food :</h4><br>
+    <div class="row foodstatusrow">
+        <div class="col-sm-6 foodstatuscard">
+            <div class="foodstatusbar">
+                <h6 class="foodstatus_head">Carbohydrates</h6><br>
+                <div class="progress foodstatusprogress">
+                    <div class="progress-bar" style="width:50%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 foodstatuscard">
+            <div class="foodstatusbar">
+                <h6 class="foodstatus_head">Proteins</h6><br>
+                <div class="progress foodstatusprogress">
+                    <div class="progress-bar" style="width:40%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row foodstatusrow">
+        <div class="col-sm-6 foodstatuscard">
+            <div class="foodstatusbar">
+                <h6 class="foodstatus_head"> Vitamins</h6><br>
+                <div class="progress foodstatusprogress">
+                    <div class="progress-bar" style="width:20%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 foodstatuscard">
+            <div class="foodstatusbar">
+                <h6 class="foodstatus_head">Minerals</h6><br>
+                <div class="progress foodstatusprogress">
+                    <div class="progress-bar" style="width:35%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row foodstatusrow">
+        <div class="col-sm-6 foodstatuscard">
+            <div class="foodstatusbar">
+                <h6 class="foodstatus_head">Fibre</h6><br>
+                <div class="progress foodstatusprogress">
+                    <div class="progress-bar" style="width:30%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 foodstatuscard">
+            <div class="foodstatusbar">
+                <h6 class="foodstatus_head">Water</h6><br>
+                <div class="progress foodstatusprogress">
+                    <div class="progress-bar" style="width:70%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="/" class="foodstatuslink">Back</a>
+</div>
+
+{% endblock %}
