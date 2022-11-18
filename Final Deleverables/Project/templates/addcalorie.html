@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="addcalorie_content">
+    <h5 class="addcaloriehead">Add and Check your Daily Calorie Level</h5>
+    <div class="addcaloriedescription">You can select the food material and check the Calorie level of that selected food. It helps you to know the detail about the selected food.</div><br>
+    <input type="text" id="addcalorieform"><br><br>
+    <button id="Checkalertbtn" onclick="alertCalorie()">Check</button>
+</div>
+
+<script>
+        function alertCalorie() {
+            window.alert("One cup (186g) of cooked short-grain white rice has 242 calories.")
+        }
+</script>
+
+{% endblock %}

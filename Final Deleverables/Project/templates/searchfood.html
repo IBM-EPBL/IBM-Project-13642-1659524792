@@ -1,0 +1,33 @@
+    {% extends 'base.html' %}
+
+    {% block head %}
+
+    {% endblock %}
+
+    {% block body %}
+
+    <div class="searchfood_content">
+        <h3 class="searchfood_head">Search the Food Items you Want :</h3>
+        <p class="searchfood_description">You can search the details about the food items you select. And take the details about the selected food items. In this application, you also have the Nutrition plan for your health condition.</p>
+        <h5 class="searchfood_head">Nutrition Plan</h5>
+        <div class="row">
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-primary" id="foodpop" data-bs-toggle="popover" title="Broccoli" data-bs-content="Broccoli is an edible green plant in the cabbage family whose large flowering head, stalk and small associated leaves are eaten as a vegetable. Broccoli is classified in the Italica cultivar group of the species Brassica oleracea.">Broccoli</button><br><br>
+                <button type="button" class="btn btn-primary" id="foodpop" data-bs-toggle="popover" title="Milk" data-bs-content="Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals before they are able to digest solid food. Immune factors and immune-modulating components in milk contribute to milk immunity.">Milk</button><br><br>
+                <button type="button" class="btn btn-primary" id="foodpop" data-bs-toggle="popover" title="Avocado" data-bs-content="The avocado is a medium-sized, evergreen tree in the laurel family. It is native to the Americas and was first domesticated by Mesoamerican tribes more than 5,000 years ago. Then as now it was prized for its large and unusually oily fruit. The tree likely originated in the highlands bridging south-central Mexico and Guatemala.">Avocado</button><br><br>
+            </div>
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-primary popright" id="foodpop" data-bs-toggle="popover" title="Salmon" data-bs-content="salmon, originally, the large fish now usually called the Atlantic salmon (Salmo salar), though more recently the name has been applied to similar fishes of the same family (Salmonidae), especially the Pacific salmon, which constitute the genus Oncorhynchus.">Salmon</button><br><br><br>
+                <button type="button" class="btn btn-primary popright" id="foodpop" data-bs-toggle="popover" title="Flaxseeds" data-bs-content="Flaxseed was cultivated in Babylon as early as 3000 BC. In the 8th century, King Charlemagne believed so strongly in the health benefits of flaxseed that he passed laws requiring his subjects to consume it. Now, thirteen centuries later, some experts say we have preliminary research to back up what Charlemagne suspected.">Flaxseeds</button><br><br><br>
+                <button type="button" class="btn btn-primary popright" id="foodpop" data-bs-toggle="popover" title="Sweet Potato" data-bs-content="The sweet potato or sweetpotato (Ipomoea batatas) is a dicotyledonous plant that belongs to the bindweed or morning glory family, Convolvulaceae. Its large, starchy, sweet-tasting tuberous roots are used as a root vegetable. The young shoots and leaves are sometimes eaten as greens.">Sweet Potato</button> 
+            </div>
+        </div>
+        <a href="/foodstatus" class="foodstatuslink">Next</a>
+    </div>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    {% endblock %}

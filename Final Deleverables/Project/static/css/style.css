@@ -1,0 +1,258 @@
+.content {
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+.content_box {
+    width: 300px;
+    margin: auto;
+
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+.head {
+    color: rgb(240, 226, 25);
+}
+.modal_button {
+    margin-left: 120px;
+}
+.modal-header {
+    background-color: rgb(27, 196, 21);
+}
+.loginbtn {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(27, 196, 21);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/*  Base  */
+
+.base_content {
+    position: relative;
+}
+.pagelink {
+    text-decoration: none;
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.pagelink:hover {
+    color: black;
+}
+
+/*  Navbar  */
+
+.navbar {
+    background-color: rgb(0, 183, 255);
+}
+#navbar-head {
+    font-weight: bold;
+    margin-left: 10px;
+}
+#dropdownbtn {
+    color: black;
+    font-weight: bold;
+}
+#dropdowncontent {
+    background-color: rgb(0, 183, 255);
+}
+
+/*  Index  */
+
+.biometricdetail_content {
+    max-width: 400px;
+    background-color: rgb(219, 219, 236);
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.biometricdetail_head {
+    color: brown;
+}
+.biometricdetail_description {
+    font-size: 13px;
+}
+.biometricdetaillink {
+    color: rgb(15, 15, 224);
+}
+
+/*  Enter Detail  */
+
+.enterdetail {
+    max-width: 400px;
+    background-color: rgb(219, 219, 236);
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.enterdetailhead {
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.enterdetail_description {
+    font-size: 13px;
+}
+.enterdetailrow {
+    margin-bottom: 20px;
+}
+.enterdetailtopic {
+    color: rgb(145, 33, 33);
+}
+#enterdetailform {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 236);
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: -10px;
+}
+.registerdetail_link {
+    background-color: rgb(0, 68, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+    margin-top: -50px;
+    float: right;
+    margin-top: 20px;
+}
+.registerdetail_link:hover {
+    color: white;
+}
+.detailconfirm {
+    max-width: 400px;
+    background-color: rgb(219, 219, 236);
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.detailconfirmhead {
+    color: brown;
+}
+.detailconfirmlink {
+    background-color: rgb(0, 68, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+    margin-top: -50px;
+    float: right;
+    margin-top: 20px;
+}
+.detailconfirmlink:hover {
+    color: white;
+}
+
+/*  Search Food  */
+
+.searchfood_content {
+    max-width: 500px;
+    background-color: rgb(219, 219, 236);
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+.searchfood_head {
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.searchfood_description {
+    font-size: 13px;
+}
+#foodpop {
+    background-color: blue;
+}
+.popright {
+    float: right;
+}
+.foodstatuslink {
+    background-color: rgb(0, 68, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+}
+.foodstatuslink:hover {
+    color: white;
+}
+
+/*  Food Status  */
+
+.foodstatuscontent {
+    width: 500px;
+    background-color: rgb(219, 219, 236);
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    padding: 20px 40px;
+}
+.foodstatus_head {
+    color: black;
+    font-weight: bold;
+}
+.foodstatushead {
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.foodstatusrow {
+    margin-bottom: 30px;
+}
+
+/*  Add Calorie  */
+
+.addcalorie_content {
+    width: 500px;
+    background-color: rgb(219, 219, 236);
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    padding: 20px 40px;
+}
+.addcaloriehead {
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#Checkalertbtn {
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 5px 20px;
+    color: white;
+}
+.addcaloriedescription {
+    font-size: 13px;
+}
